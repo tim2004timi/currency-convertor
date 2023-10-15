@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.jpg') center/cover no-repeat fixed; /* Фоновая картинка */
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон блока */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-block {
+    width: 420px;
+    background: #ffffff; /* Цвет блока */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Тень блока */
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input {
+    width: 96%;
+}
+
+button {
+    background-color: #0074e4; /* Цвет кнопки */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056a7; /* Цвет кнопки при наведении */
+}
+
+.result-block {
+    margin: 5px;
+    padding: 10px;
+    width: 96%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Дополнительные стили для формы и элементов формы могут быть добавлены по желанию */
